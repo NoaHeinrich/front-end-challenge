@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   if ($(window).width() < 767) {
       $("button").hide()
       $("#nav-menu").removeClass("dropdown-menu")
@@ -6,6 +7,7 @@ $(document).ready(function(){
       $("button").show()
       $("#nav-menu").addClass("dropdown-menu")
     }
+
   $(window).resize(function(){
     if ($(window).width() < 767) {
       $("button").hide()

@@ -3,6 +3,36 @@ img {
 }
 
 header {
-  border: 0.5px black solid;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 5px;
+  background-color:#e3eaa7;
+  border-radius: 5px;
+}
+
+button {
+  width: 166px;
+  border: none;
+  background-color: #d5e1df;
+  border-radius: 5px;
+
+}
+
+#nav-menu {
+  text-decoration: none;
+
+}
+
+ul {
+  text-decoration: none;
+  font-size: 16px;
+  list-style: none;
+}
+
+h2, h3 {
+  background-color: #b5e7a0;
+  border-radius: 5px;
+}
+
+footer {
+  background-color:#e3eaa7;
+  border-radius: 5px;
 }
